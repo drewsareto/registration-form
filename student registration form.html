@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+<h1><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+
+<form>
+
+<fieldset>
+<legend><b><i>Personal Information</i></b></legend>
+
+<label><b>Full Name:</b></label><br>
+<input type="text" placeholder="Enter Full Name"><br><br>
+
+<label><strong>Email Address:</strong></label><br>
+<input type="email" placeholder="Enter Email"><br><br>
+
+<label><b>Phone Number:</b></label><br>
+<input type="tel" placeholder="Enter Phone Number"><br><br>
+
+<label><b><i>Date of Birth:</i></b></label><br>
+<input type="date"><br><br>
+
+</fieldset>
+
+<br>
+<fieldset>
+<legend><b><i>Gender Selection</i></b></legend>
+
+<input type="radio" id="male" name="gender">
+<label for="male"><b>Male</b></label><br>
+
+<input type="radio" id="female" name="gender">
+<label for="female"><b>Female</b></label><br>
+
+<input type="radio" id="other" name="gender">
+<label for="other"><b>Other</b></label>
+
+
+</fieldset>
+<br>
+
+<fieldset>
+<legend><b><i>Select Country</i></b></legend>
+
+<select name="country">
+<option>---Choose Country---</option>
+<option>Kenya</option>
+<option>Uganda</option>
+<option>Rwanda</option>
+<option>Tanzania</option>
+<option>Australia</option>
+</select>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend><b><i>Select Subjects</i></b></legend>
+
+<input type="checkbox" id="science">
+<label for="science"><b>Science</b></label><br>
+
+<input type="checkbox" id="math">
+<label for="math"><b>Mathematics</b></label><br>
+
+<input type="checkbox" id="english">
+<label for="english"><b>English</b></label><br>
+
+<input type="checkbox" id="swahili">
+<label for="swahili"><b>Swahili</b></label><br>
+
+<input type="checkbox" id="music">
+<label for="music"><b>Music</b></label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend><b><i>Programming Languages</i></b></legend>
+
+<select multiple>
+
+<option>Java</option>
+<option>Python</option>
+<option>C</option>
+<option>C++</option>
+<option>JavaScript</option>
+<option>COBOL</option>
+
+</select>
+
+</fieldset>
+
+<br>
+
+<h2><b><u><i>Comments Section</i></u></b></h2>
+
+<textarea rows="6" cols="40" placeholder="Write comments here"></textarea>
+
+<br><br>
+
+<h2><b>Student Information Table</b></h2>
+
+<table border="1">
+
+<tr>
+<th><b>Student ID</b></th>
+<th><b>Course</b></th>
+<th><b>Year</b></th>
+</tr>
+
+<tr>
+<td><i>001</i></td>
+<td><u>Computer Science</u></td>
+<td><strong>Year 1</strong></td>
+</tr>
+
+</table>
+
+<br>
+
+<p>
+<b>Note:</b>
+<i>Please ensure all details are correct before submission.</i>
+</p>
+
+<input type="submit" value="Register">
+
+<input type="reset" value="Clear Form">
+
+</form>
+
+</body>
+</html>
